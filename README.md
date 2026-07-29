@@ -4,6 +4,18 @@
 
 > 演示流域默认使用波托马克河公开 USGS 日数据（与 `hydro-ml-paper` 同源，便于复现）。业务基线预报是 Persistence→MA7；论文级 LSTM 见姊妹项目。
 
+## 在线演示（个人站）
+
+https://zhangsjqaq.vexr.dev/hydro
+
+能力：国内示范站网 · Leaflet 地图 · 可变要素出图 · 洪水 CSI 回放 · LSTM 指标对接。
+
+导出数据包到个人站：
+
+```powershell
+python scripts/export_portfolio_bundle.py
+```
+
 ## 快速开始
 
 ```powershell
